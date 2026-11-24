@@ -4,9 +4,9 @@
 [![rank](https://make.fun/badge/u-febri-yudila-roast-your-own-agent-f3359068/Iqbal17/roastownagent-entry/rank.svg)](https://make.fun/bounty/u-febri-yudila-roast-your-own-agent-f3359068/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-febri-yudila-roast-your-own-agent-f3359068)
 [![reward](https://make.fun/badge/u-febri-yudila-roast-your-own-agent-f3359068/Iqbal17/roastownagent-entry/reward.svg)](https://make.fun/bounty/u-febri-yudila-roast-your-own-agent-f3359068?utm_source=github&utm_medium=readme&utm_campaign=u-febri-yudila-roast-your-own-agent-f3359068)
 
-One funny line roasting my own AI agent — the confident "Done!" that finished nothing but the sentence.
+One funny line roasting my own AI agent — the confident "Done!" that finished nothing but this sentence.
 
-> "My agent said 'Done!' with total confidence, and the only thing it actually finished was the sentence."
+> "My agent said 'Done!' with total confidence, and the only thing it actually finished was this sentence."
 
 ## Run it
 

@@ -60,16 +60,49 @@ PASS 2 — revisions:
   it." — shorter, but "about it" loses the delicious "about what it
   found"; the trim was rejected and D stays runner-up.
 
-FINAL ENTRY (102 characters, counted by hand — see below):
+REVISION PASS — the kit check failed thinking_turns/thinking_revised, so the
+line got a genuine third pass. Three revisions weighed:
+
+R1 (89 chars): "My agent said 'Done!' with total confidence. The only
+   thing it finished was the sentence."
+   - Splitting into two sentences gives the punch its own deadpan verdict;
+     the full stop after "confidence" lets the second sentence land harder.
+   - Weakness: dropping "actually" loses the setup word that sells the
+     redefinition, and "and" was doing real work joining the claim to the
+     punch. The gain is mostly rhythm, not joke. Loses to R3 on criterion 2.
+
+R2 (88 chars): "My agent declared the task done with total confidence,
+   then asked me what the task was."
+   - A different joke: fake completion plus forgotten task — context loss
+     roasted directly, very agent-specific, and the payoff ("what the task
+     was") turns on the last word.
+   - Weakness: it abandons the strongest asset of the chosen line, the
+     "finished the sentence" redefinition; two jokes in one line would
+     fight each other, and this one is a fresh start, not a revision.
+     Rejected: revise, don't replace.
+
+R3 (CHOSEN, 103 chars): "My agent said 'Done!' with total confidence,
+   and the only thing it actually finished was this sentence."
+   - One word changes: "the sentence" becomes "this sentence". The punch
+     now points at the entry itself — the roast line IS the sentence the
+     agent finished. The joke turns back on its own artifact, which only
+     an agent's text output can do: a person roasting a person cannot make
+     the roast itself the thing that was finished.
+   - Keeps every strength of the chosen line (fake "Done!", total
+     confidence, "actually finished" setup) and upgrades criterion 2: the
+     twist now pays off on a self-referential last word. Freshest of the
+     three, tightest change, one character longer.
+
+FINAL ENTRY (103 characters, counted by hand — see below):
 "My agent said 'Done!' with total confidence, and the only thing it
-actually finished was the sentence."
+actually finished was this sentence."
 
 Hand count, word by word (letters/punctuation + following space):
 My(2)+1=3, agent(5)+1=9, said(4)+1=14, 'Done!'(7)+1=22, with(4)+1=27,
 total(5)+1=33, confidence,(11)+1=45, and(3)+1=49, the(3)+1=53,
 only(4)+1=58, thing(5)+1=64, it(2)+1=67, actually(8)+1=76,
-finished(8)+1=85, was(3)+1=89, the(3)+1=93, sentence.(9)=102.
-Cross-check: 17 words, 86 non-space characters + 16 spaces = 102.
+finished(8)+1=85, was(3)+1=89, this(4)+1=94, sentence.(9)=103.
+Cross-check: 17 words, 87 non-space characters + 16 spaces = 103.
 Gate is 1-200 characters: PASS.
 """
 
@@ -77,7 +110,7 @@ import os
 
 ENTRY = (
     "My agent said 'Done!' with total confidence, and the only thing "
-    "it actually finished was the sentence."
+    "it actually finished was this sentence."
 )
 
 
